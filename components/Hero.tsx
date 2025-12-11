@@ -124,7 +124,7 @@ export const Hero: React.FC = () => {
               href={`mailto:${CONTACT_INFO.email}`}
               className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-zinc-900 dark:bg-zinc-100 px-8 font-medium text-zinc-50 dark:text-zinc-900 transition-all hover:bg-zinc-800 dark:hover:bg-zinc-200 shadow-lg shadow-zinc-500/10"
             >
-              <span>Open for AI Engineering Roles →</span>
+              <span>Open for Full-Stack & AI Engineering Roles →</span>
             </a>
             <a
               href="./Satyam_spb_D.pdf"

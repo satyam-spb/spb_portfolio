@@ -74,7 +74,7 @@ export const Contact: React.FC = () => {
             © {new Date().getFullYear()} Satyam Pratik Bharti.
           </p>
           <p className="text-xs text-zinc-300 dark:text-zinc-700 mt-2 font-mono">
-            Built with React, TypeScript, Tailwind & Motion.
+            Built with care
           </p>
         </div>
       </div>

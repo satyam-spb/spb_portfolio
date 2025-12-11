@@ -6,7 +6,7 @@ export const Skills: React.FC = () => {
   return (
     <section id="skills" className="py-24 w-full max-w-4xl px-6">
       <div className="flex flex-col items-center mb-16 text-center">
-        <h2 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-4">Tech Stack & Skills</h2>
+        <h2 className="text-5xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-4">Tech Stack & Skills</h2>
         <div className="h-1 w-20 bg-zinc-900 dark:bg-zinc-100 rounded-full mb-6"></div>
         <p className="text-zinc-500 dark:text-zinc-400 max-w-lg">
            Tools and technologies I use to build scalable, production-ready AI systems.
