@@ -55,7 +55,7 @@ export const Experience: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-3 shrink-0">
-                  {exp.company === "Samsung" && (
+                  {exp.company === "Samsung PRISM" && (
                     <a
                       href="/prism_certificate.png"
                       target="_blank"
