@@ -44,40 +44,44 @@ const SocialLink: React.FC<Social> = ({ href, Icon, label }) => (
 
 export const Contact: React.FC = () => {
   return (
-    <footer
-      id="contact"
-      className="w-full border-t border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-950 pt-24 pb-12"
-    >
-      <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-6">
-          Ready to ship?
-        </h2>
-        <p className="text-zinc-500 dark:text-zinc-400 mb-16 text-lg max-w-xl mx-auto">
-          Currently available for opportunities
-        </p>
+    <>
+      <footer
+        id="contact"
+        className="w-full border-t border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-950 pt-24 pb-12"
+      >
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-6">
+            Ready to ship?
+          </h2>
+          <p className="text-zinc-500 dark:text-zinc-400 mb-16 text-lg max-w-xl mx-auto">
+            Currently available for opportunities
+          </p>
 
-        <div className="flex justify-center mb-24">
-          <div className="grid grid-cols-3 md:grid-cols-6 gap-16">
-            {SOCIALS.map((social) => (
-              <SocialLink
-                key={social.label}
-                href={social.href}
-                Icon={social.Icon}
-                label={social.label}
-              />
-            ))}
+          <div className="flex justify-center mb-24">
+            <div className="grid grid-cols-3 md:grid-cols-6 gap-16">
+              {SOCIALS.map((social) => (
+                <SocialLink
+                  key={social.label}
+                  href={social.href}
+                  Icon={social.Icon}
+                  label={social.label}
+                />
+              ))}
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center border-t border-zinc-100 dark:border-zinc-900 pt-10">
+            <p className="text-xs text-zinc-400 dark:text-zinc-600">
+              © {new Date().getFullYear()} Satyam Pratik Bharti.
+            </p>
+            <p className="text-xs text-zinc-300 dark:text-zinc-700 mt-2 font-mono">
+              Built with care
+            </p>
           </div>
         </div>
-
-        <div className="flex flex-col items-center border-t border-zinc-100 dark:border-zinc-900 pt-10">
-          <p className="text-xs text-zinc-400 dark:text-zinc-600">
-            © {new Date().getFullYear()} Satyam Pratik Bharti.
-          </p>
-          <p className="text-xs text-zinc-300 dark:text-zinc-700 mt-2 font-mono">
-            Built with care
-          </p>
-        </div>
-      </div>
-    </footer>
+      </footer>
+      {/* Spacer to allow scroll detection */}
+      <div className="h-32"></div>
+    </>
   );
 };

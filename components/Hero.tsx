@@ -16,7 +16,7 @@ export const Hero: React.FC = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden w-full group pt-20"
+      className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden w-full group pt-20 md:pt-32"
       onMouseMove={handleMouseMove}
     >
       {/* Background Dot Pattern with Spotlight */}
@@ -92,7 +92,7 @@ export const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-4xl md:text-6xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-6 leading-[1.1]"
+          className="text-4xl md:text-6xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-8 leading-[1.1]"
         >
           Building fast, seamless <br className="hidden md:block" />
           <span className="text-zinc-400 dark:text-zinc-500">
@@ -105,11 +105,24 @@ export const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="max-w-2xl mx-auto text-lg md:text-xl text-zinc-600 dark:text-zinc-400 mb-10 leading-relaxed"
+          className="max-w-2xl mx-auto text-lg md:text-xl text-zinc-600 dark:text-zinc-400 mb-14 leading-relaxed"
         >
-          Full-Stack AI Engineer focused on high-reliability backend systems and
+          {/* Full-Stack AI Engineer focused on high-reliability backend systems and
           adversarial NLP. Proven track record of optimizing fine-tuning
-          pipelines (Samsung PRISM) and deploying secure RAG architectures.
+          pipelines (Samsung PRISM) and deploying secure RAG architectures. */}
+          Full-Stack AI Engineer building production-grade web platforms — from{" "}
+          <span className="font-semibold text-zinc-900 dark:text-zinc-200">
+            React frontends
+          </span>{" "}
+          to{" "}
+          <span className="font-semibold text-zinc-900 dark:text-zinc-200">
+            scalable backend systems
+          </span>
+          , with hands-on AI research and model fine-tuning experience through{" "}
+          <span className="font-semibold text-zinc-900 dark:text-zinc-200">
+            Samsung PRISM
+          </span>
+          .
         </motion.p>
 
         {/* Action Buttons */}
@@ -122,6 +135,7 @@ export const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
             <a
               href={`mailto:${CONTACT_INFO.email}`}
+              data-email-button
               className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-zinc-900 dark:bg-zinc-100 px-8 font-medium text-zinc-50 dark:text-zinc-900 transition-all hover:bg-zinc-800 dark:hover:bg-zinc-200 shadow-lg shadow-zinc-500/10"
             >
               <span>Open for Full-Stack & AI Engineering Roles →</span>

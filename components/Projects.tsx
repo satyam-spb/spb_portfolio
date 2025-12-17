@@ -48,6 +48,9 @@ export const Projects: React.FC = () => {
 
       {/* Filter Controls */}
       <div className="flex flex-col items-center mb-12">
+        <p className="text-xs font-semibold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-4">
+          Filter work by interest
+        </p>
         <div className="flex flex-wrap justify-center gap-2 mb-4">
           {allTags.map((tag) => {
             const isSelected = selectedTags.includes(tag);

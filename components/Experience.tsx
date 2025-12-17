@@ -39,10 +39,10 @@ export const Experience: React.FC = () => {
             </div>
 
             {/* Content Card */}
-            <div className="sm:col-span-10 relative border border-zinc-200 dark:border-zinc-800 rounded-2xl p-6 sm:p-8 bg-white dark:bg-zinc-900/40 hover:border-zinc-300 dark:hover:border-zinc-700 transition-all duration-300 hover:shadow-lg shadow-zinc-200/50 dark:shadow-none">
+            <div className="sm:col-span-10 relative border border-zinc-200 dark:border-zinc-800 rounded-2xl p-6 sm:p-8 bg-white dark:bg-zinc-900/40 hover:border-zinc-250 dark:hover:border-zinc-750 transition-all duration-300 hover:shadow-sm shadow-zinc-200/50 dark:shadow-none">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-6 gap-2">
                 <div>
-                  <h3 className="text-lg font-bold text-zinc-900 dark:text-zinc-50 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                  <h3 className="text-lg font-bold text-zinc-900 dark:text-zinc-50 group-hover:text-zinc-700 dark:group-hover:text-zinc-200 transition-colors">
                     {exp.role}
                   </h3>
                   <div className="flex items-center gap-2 mt-1">
