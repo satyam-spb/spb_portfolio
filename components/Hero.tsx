@@ -146,7 +146,7 @@ export const Hero: React.FC = () => {
               rel="noopener noreferrer"
               className="inline-flex h-12 items-center justify-center rounded-md border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 px-8 font-medium text-zinc-900 dark:text-zinc-100 transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-900"
             >
-              Download Resume
+              View Resume
               <Download className="ml-2 h-4 w-4" />
             </a>
           </div>

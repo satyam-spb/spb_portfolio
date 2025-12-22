@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Satyam's Portfolio
 
-# Run and deploy your AI Studio app
+A premium, fully-responsive portfolio website showcasing full-stack development expertise, AI/ML projects, and professional achievements.
 
-This contains everything you need to run your app locally.
+Designed and developed by **Satyam Pratik Bharti**.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1A07b6S6UfHAJS7zvNofzehQQhXiqbNx7
+## Overview
 
-## Run Locally
+This portfolio demonstrates expertise in building scalable web applications, AI-powered systems, and production-grade software solutions. Featuring a modern tech stack with a focus on performance, accessibility, and user experience.
 
-**Prerequisites:**  Node.js
+## Tech Stack
 
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS
+- **Theme:** Dynamic light/dark mode support
+- **Build Tool:** Vite for optimized production builds
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Features
+
+- ⚡ Lightning-fast performance with Vite
+- 🎨 Modern, premium UI with smooth animations
+- 🌓 Dynamic theme switching
+- 📱 Fully responsive design
+- ♿ Accessibility-first approach
+
+## Setup & Installation
+
+**Prerequisites:** Node.js
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## Production Build
+
+```bash
+npm run build
+```
+
+---
+
+**Portfolio by Satyam Pratik Bharti**
